@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #171923;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+textarea {
+    resize: none;
+    border: none;
+    padding: 8px;
+    background-color: #1A202C;
+    color: #F7FAFC;
+    outline: none;
+    font-size: 24px;
+    text-align: justify;
+    border-radius: 16px;
+}
+
+textarea:focus {
+    border: 2px solid #4299E1;
+}
+
+button {
+    background-color: #4299E1;
+    color: #EBF8FF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    animation: fadeIn 2s;
+    font-size: 24px;
+}
+
+@keyframes fadeIn {
+    0% {
+    opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
