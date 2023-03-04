@@ -54,3 +54,16 @@ button {
         opacity: 1;
     }
 }
+
+#inputPergunta {
+  height: 100px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  padding: 10px;
+}
+#inputPergunta:focus {
+  border-color: #007bff;
+  outline: none;
+}
