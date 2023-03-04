@@ -67,3 +67,17 @@ button {
   border-color: #007bff;
   outline: none;
 }
+
+/* Para dispositivos com largura menor ou igual a 600 pixels (por exemplo, smartphones em modo retrato) */
+@media screen and (max-width: 600px) {
+  #resultadoIA {
+    height: 150px;
+  }
+}
+
+/* Para dispositivos com largura maior que 600 pixels (por exemplo, tablets e computadores) */
+@media screen and (min-width: 601px) {
+  #resultadoIA {
+    height: 300px;
+  }
+}
