@@ -1,6 +1,6 @@
 const inputPergunta = document.getElementById("inputPergunta");
 const resultadoIA = document.getElementById("resultadoIA");
-if (result.value) result.value += “\n\n\n”
+if (resultadoIA.value) resultadoIA.value += "\n\n\n";
 
 result.value += `Eu ${sQuestion}`
 inputQuestion.value = "Carregando..."
@@ -59,5 +59,3 @@ function EnviarPergunta() {
 
   resultadoIA.scrollTop = resultadoIA.scrollHeight;
 }
-
-document.getElementById("EnviarPergunta").addEventListener("click", EnviarPergunta)
