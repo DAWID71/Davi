@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +7,16 @@
   <title>Chat GPT</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <div class="content">
-    <textarea id="resultadoIA" rows="10" disabled placeholder="Resposta da I.A" style="height: 70%;"></textarea>
-
-    <textarea id="inputPergunta" placeholder="Digite sua pergunta aqui"></textarea>
-
-
-    <button id="EnviarPergunta">
-      Enviar mensagem
-    </button>
+    <div class="input">
+      <textarea id="inputPergunta" placeholder="Pergunte o que quiser..."></textarea>
+    </div>
+    <button id="EnviarPergunta">Enviar</button>
+    <div class="output">
+      <textarea id="resultadoIA" placeholder="Resposta..." readonly></textarea>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
+</html>
